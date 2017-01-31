@@ -13,6 +13,13 @@
 		A802B44D1E2ECC7000B5FDC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A802B44B1E2ECC7000B5FDC5 /* Main.storyboard */; };
 		A802B4581E2ECC7000B5FDC5 /* OpenCV_FiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802B4571E2ECC7000B5FDC5 /* OpenCV_FiltersTests.swift */; };
 		A802B4631E2ECC7000B5FDC5 /* OpenCV_FiltersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802B4621E2ECC7000B5FDC5 /* OpenCV_FiltersUITests.swift */; };
+		A802B4741E2ECD5000B5FDC5 /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A802B4711E2ECD5000B5FDC5 /* libopencv_core.2.4.13.dylib */; };
+		A802B4751E2ECD5000B5FDC5 /* libopencv_highgui.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A802B4721E2ECD5000B5FDC5 /* libopencv_highgui.2.4.13.dylib */; };
+		A802B4761E2ECD5000B5FDC5 /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A802B4731E2ECD5000B5FDC5 /* libopencv_imgproc.2.4.13.dylib */; };
+		A802B47B1E2ECF6F00B5FDC5 /* Filters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A802B47A1E2ECF6F00B5FDC5 /* Filters.cpp */; };
+		A802B47D1E2ED02300B5FDC5 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A802B47C1E2ED02300B5FDC5 /* CVWrapper.mm */; };
+		A8120E871E31DE7A00A67CA1 /* libopencv_photo.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8120E861E31DE7A00A67CA1 /* libopencv_photo.2.4.13.dylib */; };
+		A8120E8A1E31F2A800A67CA1 /* HaarWavelet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8120E881E31F2A800A67CA1 /* HaarWavelet.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,16 @@
 		A802B45E1E2ECC7000B5FDC5 /* OpenCV-FiltersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenCV-FiltersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A802B4621E2ECC7000B5FDC5 /* OpenCV_FiltersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCV_FiltersUITests.swift; sourceTree = "<group>"; };
 		A802B4641E2ECC7000B5FDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A802B4711E2ECD5000B5FDC5 /* libopencv_core.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.13.dylib; path = /usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_core.2.4.13.dylib; sourceTree = "<absolute>"; };
+		A802B4721E2ECD5000B5FDC5 /* libopencv_highgui.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.13.dylib; path = /usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_highgui.2.4.13.dylib; sourceTree = "<absolute>"; };
+		A802B4731E2ECD5000B5FDC5 /* libopencv_imgproc.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.13.dylib; path = /usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_imgproc.2.4.13.dylib; sourceTree = "<absolute>"; };
+		A802B4781E2ECF5800B5FDC5 /* Filters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Filters.h; sourceTree = "<group>"; };
+		A802B4791E2ECF6F00B5FDC5 /* OpenCV-Filters-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCV-Filters-Bridging-Header.h"; sourceTree = "<group>"; };
+		A802B47A1E2ECF6F00B5FDC5 /* Filters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Filters.cpp; sourceTree = "<group>"; };
+		A802B47C1E2ED02300B5FDC5 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		A802B47E1E2ED03200B5FDC5 /* CVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
+		A8120E861E31DE7A00A67CA1 /* libopencv_photo.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_photo.2.4.13.dylib; path = ../../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_photo.2.4.13.dylib; sourceTree = "<group>"; };
+		A8120E881E31F2A800A67CA1 /* HaarWavelet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HaarWavelet.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A802B4751E2ECD5000B5FDC5 /* libopencv_highgui.2.4.13.dylib in Frameworks */,
+				A8120E871E31DE7A00A67CA1 /* libopencv_photo.2.4.13.dylib in Frameworks */,
+				A802B4761E2ECD5000B5FDC5 /* libopencv_imgproc.2.4.13.dylib in Frameworks */,
+				A802B4741E2ECD5000B5FDC5 /* libopencv_core.2.4.13.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +96,7 @@
 		A802B4391E2ECC7000B5FDC5 = {
 			isa = PBXGroup;
 			children = (
+				A802B4771E2ECD6400B5FDC5 /* OpenCV */,
 				A802B4441E2ECC7000B5FDC5 /* OpenCV-Filters */,
 				A802B4561E2ECC7000B5FDC5 /* OpenCV-FiltersTests */,
 				A802B4611E2ECC7000B5FDC5 /* OpenCV-FiltersUITests */,
@@ -100,6 +122,12 @@
 				A802B4491E2ECC7000B5FDC5 /* Assets.xcassets */,
 				A802B44B1E2ECC7000B5FDC5 /* Main.storyboard */,
 				A802B44E1E2ECC7000B5FDC5 /* Info.plist */,
+				A802B4781E2ECF5800B5FDC5 /* Filters.h */,
+				A802B47A1E2ECF6F00B5FDC5 /* Filters.cpp */,
+				A802B47C1E2ED02300B5FDC5 /* CVWrapper.mm */,
+				A802B47E1E2ED03200B5FDC5 /* CVWrapper.h */,
+				A802B4791E2ECF6F00B5FDC5 /* OpenCV-Filters-Bridging-Header.h */,
+				A8120E881E31F2A800A67CA1 /* HaarWavelet.cpp */,
 			);
 			path = "OpenCV-Filters";
 			sourceTree = "<group>";
@@ -120,6 +148,17 @@
 				A802B4641E2ECC7000B5FDC5 /* Info.plist */,
 			);
 			path = "OpenCV-FiltersUITests";
+			sourceTree = "<group>";
+		};
+		A802B4771E2ECD6400B5FDC5 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				A8120E861E31DE7A00A67CA1 /* libopencv_photo.2.4.13.dylib */,
+				A802B4711E2ECD5000B5FDC5 /* libopencv_core.2.4.13.dylib */,
+				A802B4721E2ECD5000B5FDC5 /* libopencv_highgui.2.4.13.dylib */,
+				A802B4731E2ECD5000B5FDC5 /* libopencv_imgproc.2.4.13.dylib */,
+			);
+			name = OpenCV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +229,7 @@
 				TargetAttributes = {
 					A802B4411E2ECC7000B5FDC5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A802B4521E2ECC7000B5FDC5 = {
@@ -255,6 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A802B47D1E2ED02300B5FDC5 /* CVWrapper.mm in Sources */,
+				A8120E8A1E31F2A800A67CA1 /* HaarWavelet.cpp in Sources */,
+				A802B47B1E2ECF6F00B5FDC5 /* Filters.cpp in Sources */,
 				A802B4481E2ECC7000B5FDC5 /* ViewController.swift in Sources */,
 				A802B4461E2ECC7000B5FDC5 /* AppDelegate.swift in Sources */,
 			);
@@ -396,12 +439,21 @@
 		A802B4681E2ECC7000B5FDC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "OpenCV-Filters/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "justinh5.OpenCV-Filters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV-Filters/OpenCV-Filters-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -409,12 +461,20 @@
 		A802B4691E2ECC7000B5FDC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "OpenCV-Filters/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "justinh5.OpenCV-Filters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV-Filters/OpenCV-Filters-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -496,6 +556,7 @@
 				A802B4691E2ECC7000B5FDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A802B46A1E2ECC7000B5FDC5 /* Build configuration list for PBXNativeTarget "OpenCV-FiltersTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +565,7 @@
 				A802B46C1E2ECC7000B5FDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A802B46D1E2ECC7000B5FDC5 /* Build configuration list for PBXNativeTarget "OpenCV-FiltersUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +574,7 @@
 				A802B46F1E2ECC7000B5FDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
