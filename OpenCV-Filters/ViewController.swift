@@ -66,7 +66,7 @@ class ViewController: NSViewController {
         
         let chosenFile = op.url
         
-        let ext = chosenFile?.pathExtension
+        let ext = chosenFile?.pathExtension.lowercased()
         
         if (chosenFile != nil && imageTypes.contains(ext!)) {
             self.sourcePath = String(chosenFile!.path)
