@@ -1,6 +1,6 @@
 # OpenCV Filters
 Provides basic image processing with an assortment of linear and non-linear filters in Mac OS X. 
-The filters are primarily intended for texture smoothing and denoising.
+The filters are primarily intended for texture smoothing and denoising. Simply import an image, choose a filter, change parameters, and run.
 
 ### Requirements
 - Mac OS X 10.11+
